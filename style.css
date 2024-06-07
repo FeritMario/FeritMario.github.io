@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+	--primary-color: #5e3bee;
+	--body-color: #1c1e53;
+	--heading-color: #282938;
+	--shade-color: #f5fcff;
+	--dribbble-color: #e62872;
+	--font-family: "Roboto", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: var(--body-color);
+	font-family: var(--font-family);
+}
+
+.logo img {
+	width: 170px;
+	height: 35px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	object-fit: cover;
+}
+
+.navbar-container {
+	width: 100%;
+}
+
+.navbar {
+	padding: 25px 85px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-links {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-style: normal;
+}
+
+.navbar-links a {
+	display: flex;
+	align-items: flex-start;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.secondary-button {
+	width: 120px;
+	height: 60px;
+	border: 1.33px solid var(--primary-color);
+	background-color: white;
+	border-radius: 5px;
+}
+
+.secondary-button a {
+	color: var(--primary-color);
+	font-size: 12px;
+}
+
+.active {
+	color: var(--primary-color);
+}
+
+.header-container {
+	width: 100%;
+	height: 800px;
+	background-color: var(--shade-color);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header {
+	padding: 5%;
+}
+
+img {
+	width: 80%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.skills-container {
+	width: 100%;
+	height: 500px;
+}
+
+.skills-heading {
+	padding: 25px 0px 25px 100px;
+}
+
+.skills-cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 100px;
+}
+
+.skills-cards div {
+	width: 20%;
+	background-color: var(--shade-color);
+	border: 1px solid var(--primary-color);
+	border-radius: 25px;
+	padding: 25px;
+}
+
+.skills-cards img {
+	height: 50px;
+	width: 50px;
+}
+
+.portfolio-heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 100px;
+}
+
+.portfolio-cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 100px;
+}
+
+.portfolio-cards div {
+	width: 26%;
+	background-color: var(--shade-color);
+}
+
+.portfolio-cards div h2 {
+	padding: 10px 25px;
+}
+
+.portfolio-cards div p {
+	padding: 10px 25px;
+}
+
+.portfolio-cards div button {
+	margin: 0px 25px 25px;
+}
+
+.portfolio-button {
+	width: 200px;
+	padding: 16px 24px;
+	outline: none;
+	border: none;
+	border-radius: 10.67px;
+	background-color: #e62872;
+	color: #fff;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.portfolio-button img {
+	height: 24px;
+	width: fit-content;
+}
+
+.portfolio-cards button {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid var(--primary-color);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	background-color: var(--shade-color);
+	color: #000;
+	padding: 8px 2px;
+	font-weight: bold;
+}
+
+.portfolio-cards button img {
+	height: 16px;
+	width: fit-content;
+}
+
+.portfolio-cards img {
+	width: 100%;
+	height: 235.56px;
+}
+
+.testimonials-container {
+	padding: 25px 100px 100px;
+	background-color: #f5fcff;
+	margin: 100px 0;
+}
+
+.testimonials-cards {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.testimonials-heading {
+	margin-bottom: 100px;
+}
+
+.testimonials-cards > div {
+	width: 28%;
+	background-color: transparent;
+	border: 1px solid #006b6a;
+	border-radius: 7px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.testimonials-cards > div > img {
+	height: 20px;
+	width: 120px;
+}
+
+.testimonials-cards > div > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.testimonials-cards > div > div img {
+	height: 60px;
+	width: 60px;
+}
+
+.testimonials-cards > div > div > div {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 5px;
+}
+
+.testimonials-cards > div > div > div > p {
+	margin: 0;
+}
+
+.testimonials-cards > div > div > div > p:nth-child(1) {
+	font-weight: bold;
+}
+
+.in-touch {
+	margin-bottom: 0;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 600px;
+	margin: auto;
+	margin-top: 7rem;
+}
+
+.input-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.input-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-col > label {
+	margin-left: 10px;
+	margin-top: 2rem;
+}
+
+input {
+	width: 280px;
+	height: 2rem;
+	margin-top: 1rem;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid #5e3bee;
+}
+
+.topic-label {
+	margin-top: 30px;
+	margin-right: 450px;
+	width: 150px;
+}
+
+select {
+	width: 100%;
+	margin-top: 1rem;
+	height: 2rem;
+	border: 1px solid #5e3bee;
+}
+
+textarea {
+	width: 600px;
+	height: 130px;
+	margin-top: 1rem;
+	border: 1px solid #5e3bee;
+}
+
+.checkbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+input[type="checkbox"] {
+	width: 13px;
+	height: 13px;
+	margin-bottom: 14px;
+	margin-right: 10px;
+}
+
+.submit-btn {
+	background-color: #5e3bee;
+}
+
+footer {
+	margin-top: 7rem;
+	width: 100%;
+}
+
+.footer-navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-navigation > img {
+	width: 150px;
+	height: 40px;
+	width: fit-content;
+}
+
+.footer-tags {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+}
+
+.footer-tags > div {
+	margin-right: 15px;
+}
+
+.footer-social {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.footer-social > img {
+	width: 30px;
+	height: 30px;
+}
+
+.footer-divider {
+	margin-top: 3rem;
+	height: 1px;
+	background-color: rgb(189, 189, 189);
+}
+
+.footer-creds {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+
+.footer-creds-tags {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-creds-tags > div {
+	margin-right: 15px;
+}
+
+/* Stilovi za tablet rezoluciju */
+@media (max-width: 1024px) {
+    /* Primjer: smanjenje margina u headeru */
+    .header-container {
+        padding: 30px 10px;
+    }
+
+    /* Primjer: smanjenje fonta u headeru */
+    .header h1 {
+        font-size: 28px;
+    }
+
+    /* Primjer: povećanje veličine slike u headeru */
+    .header img {
+        width: 90%;
+    }
+
+    /* Primjer: prilagodba veličine kartica sa vještinama */
+    .skills-cards div {
+        width: 50%;
+    }
+}
+/* Stilovi za mobilnu rezoluciju */
+@media (max-width: 768px) {
+    /* Primjer: smanjenje margina u headeru */
+    .header-container {
+        padding: 20px 10px;
+    }
+
+    /* Primjer: smanjenje fonta u headeru */
+    .header h1 {
+        font-size: 24px;
+    }
+
+    /* Primjer: povećanje veličine slike u headeru */
+    .header img {
+        width: 100%;
+    }
+
+    /* Primjer: prilagodba veličine kartica sa vještinama */
+    .skills-cards div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Primjer: prilagodba rasporeda input polja u kontakt formi */
+    .input-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
